@@ -1,0 +1,42 @@
+# General Ignore Files
+.env
+.env.local
+.env.*.local
+node_modules/
+dist/
+build/
+coverage/
+.DS_Store
+Thumbs.db
+
+# Frontend-Specific
+.yarn/
+.pnp.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backend-Specific
+*.log
+*.out
+*.test
+/tmp
+/vendor/
+postgres-data/
+
+# Docker-Specific
+docker-compose.override.yml
+docker-compose.override.yaml
+.dockerignore
+docker/data/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+*.swp
+*.lock
